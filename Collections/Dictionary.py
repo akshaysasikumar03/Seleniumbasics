@@ -1,0 +1,16 @@
+d1={1:'Elephant',2:'Rabbit'}
+print(d1)
+print(d1.get(2))
+print(d1[1])
+d2=dict(A="Parrot",B="Pigeon")
+print(d2)
+d2['C']="Peacock"
+print(d2)
+d2['A']="Hen"
+print(d2)
+d2.pop('A')
+print(d2)
+key,value=d2.popitem()
+print(key,value)
+d2.clear()
+print(d2)

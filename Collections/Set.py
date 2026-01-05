@@ -1,0 +1,17 @@
+s={9,18,27}
+print(s)
+s1={}
+print(s1)
+tuple1=(1,2,9)
+s.add(tuple1)
+print(s)
+list1=[8,18,28]
+s.update(list1)
+print(s)
+s.clear()
+print(s)
+x=frozenset(s)
+print(x)
+print(type(x))
+#x.update(list1)
+#print(x)
